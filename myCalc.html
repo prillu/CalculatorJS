@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CALCULATOR</title>
+    <link rel="stylesheet" href="./myCalc.css">
+</head>
+<body>
+    <!-- <h2>CALCULATOR</h2> -->
+    <div class="calculator">
+        <input type="text" id="calcScreen" placeholder="0">
+        <br>
+
+        <br>
+        <button onclick="displayContent('7')">7</button>
+        <button onclick="displayContent('8')">8</button>
+        <button onclick="displayContent('9')">9</button>
+        <button onclick="displayContent('*')">x</button>
+        <br>
+        <button onclick="displayContent('4')">4</button>
+        <button onclick="displayContent('5')">5</button>
+        <button onclick="displayContent('6')">6</button>
+        <button onclick="displayContent('-')">-</button>
+        <br>
+        <button onclick="displayContent('1')">1</button>
+        <button onclick="displayContent('2')">2</button>
+        <button onclick="displayContent('3')">3</button>
+        <button onclick="displayContent('+')">+</button>
+        <br>
+        <button onclick="clearAllContent()">AC</button>
+        <button onclick="displayContent('0')">0</button>
+        <button onclick="showResult()">=</button>
+        <button onclick="displayContent('/')">÷</button>
+        <button onclick="removeLast()">&#9003;</button>
+
+        <br>
+    </div>
+
+<script src="./main.js"></script>
+    
+</body>
+</html>
